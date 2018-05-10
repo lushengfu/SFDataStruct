@@ -15,6 +15,8 @@
 		3D816F0E20A417A60010486F /* SFDataStructTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D816F0D20A417A60010486F /* SFDataStructTests.swift */; };
 		3D816F1920A417A60010486F /* SFDataStructUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D816F1820A417A60010486F /* SFDataStructUITests.swift */; };
 		3D816F2720A418F70010486F /* LinkedListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D816F2620A418F70010486F /* LinkedListNode.swift */; };
+		3D816F2920A42E870010486F /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D816F2820A42E870010486F /* Stack.swift */; };
+		3D816F2B20A433DA0010486F /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D816F2A20A433DA0010486F /* Queue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		3D816F1820A417A60010486F /* SFDataStructUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFDataStructUITests.swift; sourceTree = "<group>"; };
 		3D816F1A20A417A60010486F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D816F2620A418F70010486F /* LinkedListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListNode.swift; sourceTree = "<group>"; };
+		3D816F2820A42E870010486F /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		3D816F2A20A433DA0010486F /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				3D816EF820A417A60010486F /* AppDelegate.swift */,
 				3D816EFA20A417A60010486F /* ViewController.swift */,
 				3D816F2620A418F70010486F /* LinkedListNode.swift */,
+				3D816F2820A42E870010486F /* Stack.swift */,
+				3D816F2A20A433DA0010486F /* Queue.swift */,
 				3D816EFC20A417A60010486F /* Main.storyboard */,
 				3D816EFF20A417A60010486F /* Assets.xcassets */,
 				3D816F0120A417A60010486F /* LaunchScreen.storyboard */,
@@ -262,6 +268,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D816F2B20A433DA0010486F /* Queue.swift in Sources */,
+				3D816F2920A42E870010486F /* Stack.swift in Sources */,
 				3D816F2720A418F70010486F /* LinkedListNode.swift in Sources */,
 				3D816EFB20A417A60010486F /* ViewController.swift in Sources */,
 				3D816EF920A417A60010486F /* AppDelegate.swift in Sources */,
