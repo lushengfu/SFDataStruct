@@ -14,6 +14,7 @@
 		3D816F0320A417A60010486F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D816F0120A417A60010486F /* LaunchScreen.storyboard */; };
 		3D816F0E20A417A60010486F /* SFDataStructTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D816F0D20A417A60010486F /* SFDataStructTests.swift */; };
 		3D816F1920A417A60010486F /* SFDataStructUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D816F1820A417A60010486F /* SFDataStructUITests.swift */; };
+		3D816F2720A418F70010486F /* LinkedListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D816F2620A418F70010486F /* LinkedListNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3D816F1420A417A60010486F /* SFDataStructUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFDataStructUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D816F1820A417A60010486F /* SFDataStructUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFDataStructUITests.swift; sourceTree = "<group>"; };
 		3D816F1A20A417A60010486F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D816F2620A418F70010486F /* LinkedListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				3D816EF820A417A60010486F /* AppDelegate.swift */,
 				3D816EFA20A417A60010486F /* ViewController.swift */,
+				3D816F2620A418F70010486F /* LinkedListNode.swift */,
 				3D816EFC20A417A60010486F /* Main.storyboard */,
 				3D816EFF20A417A60010486F /* Assets.xcassets */,
 				3D816F0120A417A60010486F /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D816F2720A418F70010486F /* LinkedListNode.swift in Sources */,
 				3D816EFB20A417A60010486F /* ViewController.swift in Sources */,
 				3D816EF920A417A60010486F /* AppDelegate.swift in Sources */,
 			);
