@@ -17,6 +17,8 @@
 		3D816F2720A418F70010486F /* LinkedListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D816F2620A418F70010486F /* LinkedListNode.swift */; };
 		3D816F2920A42E870010486F /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D816F2820A42E870010486F /* Stack.swift */; };
 		3D816F2B20A433DA0010486F /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D816F2A20A433DA0010486F /* Queue.swift */; };
+		3D8480F120A542E8000D862D /* ExecutionTimeInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8480F020A542E8000D862D /* ExecutionTimeInterval.swift */; };
+		3D8480F320A54433000D862D /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8480F220A54433000D862D /* Array+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		3D816F2620A418F70010486F /* LinkedListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListNode.swift; sourceTree = "<group>"; };
 		3D816F2820A42E870010486F /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		3D816F2A20A433DA0010486F /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		3D8480F020A542E8000D862D /* ExecutionTimeInterval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExecutionTimeInterval.swift; sourceTree = "<group>"; };
+		3D8480F220A54433000D862D /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 			children = (
 				3D816EF820A417A60010486F /* AppDelegate.swift */,
 				3D816EFA20A417A60010486F /* ViewController.swift */,
+				3D8480F020A542E8000D862D /* ExecutionTimeInterval.swift */,
+				3D8480F220A54433000D862D /* Array+Extension.swift */,
 				3D816F2620A418F70010486F /* LinkedListNode.swift */,
 				3D816F2820A42E870010486F /* Stack.swift */,
 				3D816F2A20A433DA0010486F /* Queue.swift */,
@@ -270,7 +276,9 @@
 			files = (
 				3D816F2B20A433DA0010486F /* Queue.swift in Sources */,
 				3D816F2920A42E870010486F /* Stack.swift in Sources */,
+				3D8480F120A542E8000D862D /* ExecutionTimeInterval.swift in Sources */,
 				3D816F2720A418F70010486F /* LinkedListNode.swift in Sources */,
+				3D8480F320A54433000D862D /* Array+Extension.swift in Sources */,
 				3D816EFB20A417A60010486F /* ViewController.swift in Sources */,
 				3D816EF920A417A60010486F /* AppDelegate.swift in Sources */,
 			);
